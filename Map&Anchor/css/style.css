@@ -1,0 +1,114 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    background: url("../img/r.jpg") no-repeat center;
+    background-attachment:unset;
+    background-size: cover;
+}
+
+/* home page (inden file)  */
+.main .map{
+    width: 50%;
+    display: block;
+    margin: auto;
+}
+.video{
+   margin-left: 30px;
+   font-size: 30px;
+}
+ /* HTML Page (html_page file)  */
+.html{
+    background: url("../img/HTML-Background-Images.jpg") no-repeat center;
+    background-size: cover;
+ }
+.main_main{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+ }
+.left{
+    width: 15%;
+    height: 95vh;
+    float: left;
+    overflow:scroll;
+    margin-left: 15px;
+}
+
+.right{
+    width: 80%;
+    height: 95vh;
+    float: right;
+    overflow:scroll;
+    margin-right: 10px;
+    margin-left: 0;
+}
+p{
+    text-align: justify;
+}
+h1{
+    color: blueviolet;
+}
+.main_main .copy{
+    clear: both;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+    background-color: rgb(25, 3, 3);
+}.copy span{
+    color: gold;
+}
+
+
+
+/* CSS Page (css_page file)  */
+.css{
+    background:  url("../img/css/css-header.jpg") no-repeat center;
+    background-size: cover;
+}
+
+/* JavaScript Page (js_page file)  */
+.js{
+    background: url("../img/js/jjs.png") no-repeat center;
+    background-size: cover;
+}
+/* Angular JS page (angularJS_page file)  */
+.angular{
+    background: url("../img/angular/images.jpg") no-repeat center;
+    background-size: cover;
+}
+/* Vue JS page (vueJS_page file)  */
+.vue{
+    background: url("../img/vue/vee-validate-share.webp") no-repeat center;
+    background-size: cover;
+}
+/* React JS page (reactJS_page file)  */
+.react{
+    background: url("../img/react/download.png") no-repeat center;
+    background-size: cover;
+}
+/* Next JS page (nextJS_page file)  */
+.next{
+    background: url("../img/nextJS.jpg") no-repeat center;
+    background-size: cover;
+}
+/* Node JS page (reactJS_page file)  */
+.node{
+    background: url("../img/node.png") no-repeat center;
+    background-size: cover;
+}
+/* Express JS page (expressJS_page file) */
+.express{
+    background: url("../img/express.jpg") no-repeat center;
+    background-size: cover;
+}
+
+/* Video  */
+.vid{
+    width: 70%;
+    display: block;
+    margin: auto;
+    margin-top: 40px;
+}

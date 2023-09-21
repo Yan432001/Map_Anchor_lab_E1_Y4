@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS_map</title>
+    <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+    <div class="main css">
+        <div class="map" id="top">
+            <img src="../img/ad7e621af7b7f788c19890ac7d3c5d3e.jpg" alt="WebDeveloperSkills" usemap="#ddd">
+           </div>
+           <map name="ddd">
+            <area shape="rect" coords="260, 15, 300, 55" href="../index.html" alt="Home">
+             <!-- html  -->
+             <area shape="rect" coords="210, 207, 247, 270" href="html_page.html" alt="HTML">
+             <!-- CSS -->
+             <area shape="rect" coords="304, 202, 350, 266" href="css_page.html" alt="CSS">
+             <!-- JavaScript  -->
+             <area shape="rect" coords="402, 201, 455, 262" href="js_page.html" alt="JavaScript">
+             <!-- Angular.JS  -->
+             <area shape="rect" coords="191, 294, 259, 353" href="angularJS_page.html" alt="Angular JS">
+             <!-- Vue.JS  -->
+             <area shape="rect" coords="315, 293, 358, 347" href="vueJS_page.html" alt="Vue JS">
+             <!-- React.JS  -->
+             <area shape="rect" coords="410, 290, 477, 356" href="reactJS_page.html" alt="React JS">
+             <!-- Next JS   -->
+            <area shape="rect" coords="180, 379, 247, 440" href="nextJS_page.html" alt="Next JS">
+            <!-- Node Js  -->
+            <area shape="rect" coords="306, 370, 365, 435" href="nodeJS_page.html" alt="Node JS">
+            <!-- Express Js  -->
+            <area shape="rect" coords="415, 377, 490, 430" href="expressJS_page.html" alt="Express JS">
+            <!-- React Native  -->
+            <area shape="rect" coords="416, 465, 490, 625" href="reactJS_page.html" alt="React JS">
+           </map>
+    </div>
+
+    <div class="main_main">
+        <div class="left">
+            <ul>
+                <li><a href="#top">TOP</a></li>
+                <li><a href="#css">CSS</a></li>
+                <li><a href="#his">History</a></li>
+                <li><a href="#learncss">Learn CSS</a></li>
+                <li><a href="#boxmodel">Measurement Units</a></li>
+                <li><a href="#csscolor">CSS Colors</a></li>
+                <li><a href="#background">CSS Background</a></li>
+            </ul>
+        </div>
+        <div class="right">
+            <div class="history">
+                <h1 id="css">CSS</h1>
+                <p>Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML (including XML dialects such as SVG, MathML or XHTML).[1] CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.[2]
+
+                    CSS is designed to enable the separation of content and presentation, including layout, colors, and fonts.[3] This separation can improve content accessibility; provide more flexibility and control in the specification of presentation characteristics; enable multiple web pages to share formatting by specifying the relevant CSS in a separate .css file, which reduces complexity and repetition in the structural content; and enable the .css file to be cached to improve the page load speed between the pages that share the file and its formatting.
+                    
+                    Separation of formatting and content also makes it feasible to present the same markup page in different styles for different rendering methods, such as on-screen, in print, by voice (via speech-based browser or screen reader), and on Braille-based tactile devices. CSS also has rules for alternate formatting if the content is accessed on a mobile device.[4]
+                    
+                    The name cascading comes from the specified priority scheme to determine which style rule applies if more than one rule matches a particular element. This cascading priority scheme is predictable.
+                    
+                    The CSS specifications are maintained by the World Wide Web Consortium (W3C). Internet media type (MIME type) text/css is registered for use with CSS by RFC 2318 (March 1998). The W3C operates a free CSS validation service for CSS documents.[5]
+                    
+                    In addition to HTML, other markup languages support the use of CSS including XHTML, plain XML, SVG, and XUL. CSS is also used in the GTK widget toolkit.</p><br>
+
+                <h1 id="his">History</h1>
+                <p>CSS was first proposed by Håkon Wium Lie on 10 October 1994.[22] At the time, Lie was working with Tim Berners-Lee at CERN.[23] Several other style sheet languages for the web were proposed around the same time, and discussions on public mailing lists and inside World Wide Web Consortium resulted in the first W3C CSS Recommendation (CSS1)[24] being released in 1996. In particular, a proposal by Bert Bos was influential; he became co-author of CSS1, and is regarded as co-creator of CSS.[25]
+
+                        Style sheets have existed in one form or another since the beginnings of Standard Generalized Markup Language (SGML) in the 1980s, and CSS was developed to provide style sheets for the web.[26] One requirement for a web style sheet language was for style sheets to come from different sources on the web. Therefore, existing style sheet languages like DSSSL and FOSI were not suitable. CSS, on the other hand, let a document's style be influenced by multiple style sheets by way of "cascading" styles.[26]
+
+                        As HTML grew, it came to encompass a wider variety of stylistic capabilities to meet the demands of web developers. This evolution gave the designer more control over site appearance, at the cost of more complex HTML. Variations in web browser implementations, such as ViolaWWW and WorldWideWeb,[27] made consistent site appearance difficult, and users had less control over how web content was displayed. The browser/editor developed by Tim Berners-Lee had style sheets that were hard-coded into the program. The style sheets could therefore not be linked to documents on the web.[23] Robert Cailliau, also of CERN, wanted to separate the structure from the presentation so that different style sheets could describe different presentation for printing, screen-based presentations, and editors.[27]
+
+                        Improving web presentation capabilities was a topic of interest to many in the web community and nine different style sheet languages were proposed on the www-style mailing list.[26] Of these nine proposals, two were especially influential on what became CSS: Cascading HTML Style Sheets[22] and Stream-based Style Sheet Proposal (SSP).[25][28] Two browsers served as testbeds for the initial proposals; Lie worked with Yves Lafon to implement CSS in Dave Raggett's Arena browser.[29][30][31] Bert Bos implemented his own SSP proposal in the Argo browser.[25] Thereafter, Lie and Bos worked together to develop the CSS standard (the 'H' was removed from the name because these style sheets could also be applied to other markup languages besides HTML).[23]
+
+                        Lie's proposal was presented at the "Mosaic and the Web" conference (later called WWW2) in Chicago, Illinois in 1994, and again with Bert Bos in 1995.[23] Around this time the W3C was already being established and took an interest in the development of CSS. It organized a workshop toward that end chaired by Steven Pemberton. This resulted in W3C adding work on CSS to the deliverables of the HTML editorial review board (ERB). Lie and Bos were the primary technical staff on this aspect of the project, with additional members, including Thomas Reardon of Microsoft, participating as well. In August 1996, Netscape Communication Corporation presented an alternative style sheet language called JavaScript Style Sheets (JSSS).[23] The spec was never finished, and is deprecated.[32] By the end of 1996, CSS was ready to become official, and the CSS level 1 Recommendation was published in December.
+
+                        Development of HTML, CSS, and the DOM had all been taking place in one group, the HTML Editorial Review Board (ERB). Early in 1997, the ERB was split into three working groups: HTML Working Group, chaired by Dan Connolly of W3C; DOM Working group, chaired by Lauren Wood of SoftQuad; and CSS Working Group, chaired by Chris Lilley of W3C.
+
+                        The CSS Working Group began tackling issues that had not been addressed with CSS level 1, resulting in the creation of CSS level 2 on November 4, 1997. It was published as a W3C Recommendation on May 12, 1998. CSS level 3, which was started in 1998, is still under development as of 2014.
+
+                        In 2005, the CSS Working Groups decided to enforce the requirements for standards more strictly. This meant that already published standards like CSS 2.1, CSS 3 Selectors, and CSS 3 Text were pulled back from Candidate Recommendation to Working Draft level.</p><br>
+            </div>
+            <div id="learncss">
+                    <h1>Learn CSS</h1><br>
+                    <p>
+                        This course breaks down the fundamentals of CSS into digestible, easy to understand pieces. Over the next few modules, you'll learn how the core aspects of CSS work and how to use them effectively in your projects. Use the menu pane by the "Learn CSS" logo to navigate the modules.
+
+                            You'll learn CSS fundamentals like the box model, cascade and specificity, flexbox, grid and z-index. And, along with these fundamentals, you'll learn about functions, color types, gradients, logical properties and inheritance to make you a well-rounded front-end developer, ready to take on any user interface.
+                            
+                            Each module is full of interactive demos and self-assessments for you to test your knowledge. In addition to learning through reading and demos, there is an accompanying podcast episode for each topic as another way to learn and continue expanding your knowledge.
+                            
+                        This course is created for beginner and advanced CSS developers alike. You can go through the series from start to finish to get a general understanding of CSS from top to bottom, or you can use it as a reference for specific styling subjects. For those new to web development overall, check out Learn HTML to learn all about how to write markup and link your stylesheets.
+                    </p>
+                    <img src="../img/css/intro.jpg" alt="Introduction" ><br>
+            </div>
+            <div id="boxmodel">
+                <h1>Measurement Units</h1><br>
+                <p>
+                    Before we start the actual exercise, we would like to give a brief idea about the CSS Measurement Units. CSS supports a number of measurements including absolute units such as inches, centimeters, points, and so on, as well as relative measures such as percentages and em units. You need these values while specifying various measurements in your Style rules e.g. border = "1px solid red".<br>
+
+                    We have listed out all the CSS Measurement Units along with proper Examples −                </p><br>
+                <img src="../img/css/measur.png" alt="">
+                
+            </div>
+            <div id="csscolor">
+                <h1>CSS Color</h1><br>
+                <P>
+                    CSS uses color values to specify a color. Typically, these are used to set a color either for the foreground of an element (i.e., its text) or else for the background of the element. They can also be used to affect the color of borders and other decorative effects.<br>
+
+                    You can specify your color values in various formats. Following table lists all the possible formats −
+                </P>
+                    <img src="../img/css/color.png" alt=""><br><br>
+                <h1>CSS Colors - Hex Codes</h1><br>
+                <p>A hexadecimal is a 6 digit representation of a color. The first two digits(RR) represent a red value, the next two are a green value(GG), and the last are the blue value(BB).<br>
+
+                    A hexadecimal value can be taken from any graphics software like Adobe Photoshop, Jasc Paintshop Pro, or even using Advanced Paint Brush.<br>
+                    
+                    Each hexadecimal code will be preceded by a pound or hash sign '#'. Following are the examples to use Hexadecimal notation.<br>
+                </p>
+                    <img src="../img/css/color-1.png" alt=""><br><br>
+                <h1>CSS Colors - Short Hex Codes</h1><br>
+                <p>
+                    This is a shorter form of the six-digit notation. In this format, each digit is replicated to arrive at an equivalent six-digit value. For example: #6A7 becomes #66AA77.<br>
+
+                    A hexadecimal value can be taken from any graphics software like Adobe Photoshop, Jasc Paintshop Pro, or even using Advanced Paint Brush.<br>
+
+                    Each hexadecimal code will be preceded by a pound or hash sign '#'. Following are the examples to use Hexadecimal notation.<br>
+                </p><br>
+                <img src="../img/css/color-2.png" alt=""><br>
+                <h4> You Can Research. It Have:</h4>
+                <ul>
+                    <li>CSS Color - RGB Value</li>
+                    <li>Building Color Codes</li>
+                    <li>Browser Safe Colors</li>
+                </ul>
+                
+            </div>
+            <div id="background">
+                <h1>CSS-Backgrounds</h1><br>
+                <p>
+                    This chapter teaches you how to set backgrounds of various HTML elements. You can set the following background properties of an element −
+                </p><br>
+                <img src="../img/css/b-1.png" alt=""><br>
+                <b>Set the Background Color</b><br>
+                <p>
+                    Following is the example which demonstrates how to set the background color for an element.
+                </p><br>
+                <img src="../img/css/b-2.png" alt=""><br>
+                <b>Set the Background Image</b><br>
+                <p>
+                    We can set the background image by calling local stored images as shown below -
+                </p><br>
+                <img src="../img/css/b-3.png" alt=""><br>
+            </div>
+        </div>
+        <div class="copy">
+            <small>Create by YCODER  &copy<a href="../index.html"><span>Hian Yan E1-Y4</span></a> || Copyright &copy 21/09/2023</small>
+        </div>
+    </div>
+</body>
+</html>
